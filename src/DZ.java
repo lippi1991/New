@@ -1,0 +1,50 @@
+public class DZ {
+    public static void main (String [] args){
+        System.out.println("Task #1");
+    int a1 =2;
+    int b1=5;
+    int c1=10;
+        System.out.println(a1+b1*c1/2);
+        System.out.println("Task #2");
+    int a2=1;
+    int b2=3;
+    int c2=2;
+        System.out.println((Math.pow(a2,c2)+Math.pow(b2,c2))/2);
+        System.out.println("Task #3");
+    double a3=7;
+    double b3=6;
+    double c3=8;
+        System.out.println((a3+b3)/12*c3%4+b3);
+        System.out.println("Task #4");
+    double a4=12;
+    double b4=9;
+    double c4=11;
+        System.out.println((a4-b4*c4)/(a4+b4)%c4);
+        System.out.println("Task 5");
+    int a5=2,b5=3,c5=4;
+        System.out.println(Math.abs(a5-b5)/Math.pow((a5+b5),3)-Math.cos(c5));
+        System.out.println ("Task 6");
+    int a6=12,b6=15;
+        System.out.println(("Гипотенуза=")+Math.sqrt(Math.pow(a6,2)+Math.pow(b6,2)));
+    double c6=19.209372712298546;
+        System.out.println(("Sтреугольника=")+((a6*b6)/2));
+        System.out.println(("Pтреугольника=")+(a6+b6+c6));
+        System.out.println("Task 7");
+    int x1=3,y1=1;
+    int x2=-3,y2=-1;
+        System.out.println(("ширина прямоугольника=")+(Math.abs(y1)+Math.abs(y2)));
+        System.out.println(("длина прямоугольника=")+(Math.abs(x1)+Math.abs(x2)));
+        System.out.println(("Pпрямоугольника=")+(Math.abs(y1)+Math.abs(y2)+Math.abs(x1)+Math.abs(x2))*2);
+        System.out.println(("Sпрямоугольника=")+ (Math.abs(y1)+Math.abs(y2))*(Math.abs(x1)+Math.abs(x2)));
+        System.out.println ("Task 8");
+    double a8=5,b8=6;
+    double a8Lb8=30;
+        System.out.println(("a8Lb8Radians=")+(Math.toRadians(a8Lb8)));
+        System.out.println(Math.cos(Math.toRadians(a8Lb8)));
+        System.out.println(("с8=")+Math.sqrt(Math.pow(a8,2)+Math.pow(b8,2)-2*a8*b8*Math.cos(Math.toRadians(a8Lb8))));
+    double c8=3.0064057897984564;
+        System.out.println(("PТреугольника=")+(a8+b8+c8));
+    double P=14.006405789798457;
+        System.out.println(("Sтреугольника по формуле Герона=")+((P/2*(P/2-a8)*(P/2-b8)*(P/2-c8))/2));
+}
+}
